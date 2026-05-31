@@ -1,4 +1,4 @@
-# HexSoftwares_Simple-Linear-Regression-on-Housing-Prices
+# Simple-Linear-Regression-on-Housing-Prices
 
 An internship project focused on implementing a end-to-end Machine Learning workflow to predict housing prices using linear regression models. 
 
@@ -38,12 +38,14 @@ $$\mu = 0, \sigma = 1$$
 ---
 
 ## 📈 Key Insights & Correlation Analysis
-<img width="943" height="790" alt="image" src="https://github.com/user-attachments/assets/97928e20-8bea-4267-aeb8-affedfb33fa1" />
+<p align="center">
+  <img width="943" height="790" alt="image" src="https://github.com/user-attachments/assets/97928e20-8bea-4267-aeb8-affedfb33fa1" />
+</p>
 
 
 Using a Seaborn correlation heatmap matrix, the following foundational insights were observed:
 * **Primary Economic Driver:** Median Income (`MedInc`) exhibits the strongest positive linear relationship with housing prices (~0.69), proving neighborhood wealth is the baseline driver of property premiums.
-* **Multicollinerity:** Structural features like `AveRooms` and `AveBedrms` display a high internal correlation with each other, meaning they introduce redundant structural attributes to a linear equation.
+* **Multicollinearity:** Structural features like `AveRooms` and `AveBedrms` display a high internal correlation with each other, meaning they introduce redundant structural attributes to a linear equation.
 * **Geographic Trends:** Negative coordinate correlations (`Latitude`/`Longitude`) capture regional real estate dynamics, tracking premium valuations near major coastal economic clusters.
 
 ---
